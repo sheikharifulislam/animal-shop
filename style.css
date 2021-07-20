@@ -1,0 +1,363 @@
+/* import google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+/* global style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.my-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.slider-section {
+    margin-top: 100px;
+}
+
+.slider {
+    width: 100%;
+    height: 500px;
+    background-color: #FEEAE9;
+    padding: 90px 50px;
+}
+
+.slider-text h2 {
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.slider-text p {
+    line-height: 28px;
+}
+
+.slider-text button {
+    display: inline-block;
+    padding: 9px 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, #FF589B, #FF136F);
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#highlight-animal-section {
+    padding-top: 200px;
+}
+
+#cow-section {
+    padding-top: 200px;
+}
+
+.card {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.card-head img {
+    width: 100%;
+    height: 250px;
+}
+
+.card-title {
+    text-transform: capitalize;
+    font-size: 27px;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-text {
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-footer {
+    border: none;
+    background-color: #fff;
+}
+
+.card-footer button {
+    padding: 8px 40px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(to right, #4289FF, #3F07F8);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.product-card-head img {
+    width: 100%;
+    height: 170px;
+}
+
+#goat-section {
+    padding-top: 150px;
+    margin-bottom: 100px;
+}
+
+
+/**********footer***********/
+
+.all_information_list {
+    background-color: #000;
+    padding: 70px 0;
+    overflow: hidden;
+    border-bottom: 3px solid blue;
+}
+
+.informatio_list {
+    width: 93%;
+    margin: 0 auto;
+}
+
+.address {
+    width: 31.333333%;
+    float: left;
+    overflow: hidden;
+    color: #fff;
+}
+
+.address h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.address i {
+    margin-right: 7px;
+}
+
+.address p {
+    font-family: Bell MT;
+    font-style: italic;
+    margin-bottom: 7px;
+    font-size: 19px;
+}
+
+.follow {
+    width: 22%;
+    float: left;
+    overflow: hidden;
+    color: #fff;
+    padding-left: 8px;
+}
+
+.follow h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.follow a {
+    text-decoration: none;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1.5px solid blue;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    position: relative;
+    transition: 1s;
+}
+
+.follow a i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.follow a:hover {
+    background-color: #000;
+    color: #fff;
+    border: 4px solid blue;
+}
+
+.company_information {
+    width: 23.333333%;
+    float: left;
+    overflow: hidden;
+    color: #fff;
+    padding-left: 5px;
+}
+
+.company_information h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.company_information a p {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-style: italic;
+    margin-bottom: 7px;
+    font-size: 19px;
+}
+
+.purchase_information {
+    width: 23.333333%;
+    float: right;
+    overflow: hidden;
+    color: #fff;
+    padding-left: 5px;
+}
+
+.purchase_information h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.purchase_information a p {
+    display: block;
+    font-family: Bell MT;
+    color: #fff;
+    font-style: italic;
+    margin-bottom: 7px;
+    font-size: 19px;
+}
+
+.payment_and_other {
+    background-color: #fff;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.payment_method {
+    width: 35%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.payment_method h3 {
+    font-family: Bell MT;
+    font-style: italic;
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.payment_method img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.yamifood_international {
+    width: 30%;
+    float: left;
+    overflow: hidden;
+}
+
+.yamifood_international h3 {
+    font-family: Bell MT;
+    font-style: italic;
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.payment_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment_img img {
+    width: 15%;
+    height: 30px;
+    margin-right: 3%;
+}
+
+.payment_img img:nth-child(5) {
+    margin-right: 0;
+}
+
+.verifide_by {
+    width: 30%;
+    float: right;
+    overflow: hidden;
+}
+
+.verifide_by h3 {
+    font-family: Bell MT;
+    font-style: italic;
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.verfide_img {
+    display: flex;
+    justify-content: center;
+}
+
+.verfide_img img {
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.copy_right_and_other {
+    margin: 0;
+    padding: 0;
+    background-color: green;
+    padding: 8px 0;
+    overflow: hidden;
+}
+
+.copy_right {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.all_right_reserved {
+    width: 50%;
+    float: right;
+    overflow: hidden;
+    text-align: right;
+}
+
+.copy_right_and_other h3 {
+    margin: 0;
+    padding: 0;
+    color: pink;
+    font-style: italic;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
